@@ -1,4 +1,4 @@
-24969241111842492
+24972633688640403
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56951,6 +56951,13 @@ doro
 0
 0
 0
+GHN
+doro_head
+
+
+0
+0
+0
 Gateron_KS33_Hotswap
 Gateron-KS33-Hotswap-1.5U
 
@@ -102276,3 +102283,10 @@ Trackpoint_T460s_Stick
 0
 9
 4
+niceview
+nice_view
+
+
+0
+5
+5

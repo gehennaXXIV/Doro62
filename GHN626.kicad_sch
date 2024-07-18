@@ -1719,10 +1719,22 @@
 		(uuid "102c832f-c00e-43bb-b69f-a1a05d7ee546")
 	)
 	(junction
+		(at 133.35 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1248d939-ffcd-40bc-891b-6199e731714e")
+	)
+	(junction
 		(at 101.6 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12fb33a9-ff5f-40fd-b56a-3dc447500f3d")
+	)
+	(junction
+		(at 133.35 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "158f5bd8-3878-4249-b918-1fd6af3e7306")
 	)
 	(junction
 		(at 152.4 43.18)
@@ -2566,6 +2578,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 148.59) (xy 135.89 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce1631d-edb7-450c-832a-502cc7eb8dcd")
+	)
+	(wire
+		(pts
 			(xy 40.64 92.71) (xy 40.64 113.03)
 		)
 		(stroke
@@ -2663,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "45ca2fb3-eda5-4b4e-9e55-e95686bd55f9")
+	)
+	(wire
+		(pts
+			(xy 130.81 158.75) (xy 133.35 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c339ed-5682-4924-b38e-358db4d9b4a8")
 	)
 	(wire
 		(pts
@@ -2906,6 +2938,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 158.75) (xy 135.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e15c18-7593-43f2-93cb-259747bd5d95")
+	)
+	(wire
+		(pts
 			(xy 22.86 83.82) (xy 30.48 83.82)
 		)
 		(stroke
@@ -2943,6 +2985,16 @@
 			(type default)
 		)
 		(uuid "8b62ac7a-842f-4bfe-a9ce-32e66db44c09")
+	)
+	(wire
+		(pts
+			(xy 133.35 146.05) (xy 133.35 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7015a0-5a88-4edb-92de-8735c6ba83b3")
 	)
 	(wire
 		(pts
@@ -3156,6 +3208,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 148.59) (xy 133.35 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36f8d83-3b12-4ba0-9327-15fda87d78e9")
+	)
+	(wire
+		(pts
 			(xy 153.67 143.51) (xy 149.86 143.51)
 		)
 		(stroke
@@ -3166,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 161.29) (xy 87.63 161.29)
+			(xy 77.47 161.29) (xy 85.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 165.1) (xy 52.07 165.1)
+			(xy 44.45 165.1) (xy 52.07 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3496,6 +3558,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 146.05) (xy 133.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e100e245-5001-4410-9299-a2db93b42075")
+	)
+	(wire
+		(pts
 			(xy 40.64 30.48) (xy 40.64 50.8)
 		)
 		(stroke
@@ -3586,16 +3658,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 146.05) (xy 139.7 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f136a260-9859-4246-813b-93f723e16da0")
-	)
-	(wire
-		(pts
 			(xy 198.12 43.18) (xy 213.36 43.18)
 		)
 		(stroke
@@ -3667,44 +3729,44 @@
 	)
 	(global_label "R3"
 		(shape input)
-		(at 52.07 184.15 180)
+		(at 77.47 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0658e12c-2e73-432c-ba97-385383df2134")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.6053 184.15 0)
+			(at 82.9347 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "C8"
 		(shape input)
-		(at 52.07 168.91 180)
+		(at 77.47 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1206a112-4a54-4e57-8413-51da6a645ef1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.6053 168.91 0)
+			(at 82.9347 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3733,22 +3795,22 @@
 	)
 	(global_label "C12"
 		(shape input)
-		(at 52.07 179.07 180)
+		(at 77.47 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "16fb3c48-82c8-4a1d-a5cc-8cb075ec085c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.3958 179.07 0)
+			(at 84.1442 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3777,29 +3839,7 @@
 	)
 	(global_label "C5"
 		(shape input)
-		(at 77.47 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a5a2f3d-a96c-4a63-b9ce-690bdb337a47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R2"
-		(shape input)
-		(at 52.07 181.61 180)
+		(at 52.07 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3807,14 +3847,36 @@
 			)
 			(justify right)
 		)
-		(uuid "2eab9084-a4c5-4cff-88f8-0d4741f0502f")
+		(uuid "1a5a2f3d-a96c-4a63-b9ce-690bdb337a47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.6053 181.61 0)
+			(at 46.6053 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 77.47 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2eab9084-a4c5-4cff-88f8-0d4741f0502f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.9347 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3887,22 +3949,22 @@
 	)
 	(global_label "C1"
 		(shape input)
-		(at 77.47 184.15 0)
+		(at 52.07 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3ba3c805-e669-4c17-8d64-022e4786921f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 184.15 0)
+			(at 46.6053 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3931,22 +3993,22 @@
 	)
 	(global_label "C7"
 		(shape input)
-		(at 77.47 168.91 0)
+		(at 52.07 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "47caa229-cbc4-4c75-85b9-bccb6b1cfdc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 168.91 0)
+			(at 46.6053 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3975,22 +4037,22 @@
 	)
 	(global_label "C4"
 		(shape input)
-		(at 77.47 176.53 0)
+		(at 52.07 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "61f53e95-3ab6-4bac-886f-faea7705c916")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 176.53 0)
+			(at 46.6053 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4107,28 +4169,6 @@
 	)
 	(global_label "C6"
 		(shape input)
-		(at 77.47 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "921995dc-1679-4d77-a7ed-7353deeee18d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C9"
-		(shape input)
 		(at 52.07 171.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4137,7 +4177,7 @@
 			)
 			(justify right)
 		)
-		(uuid "97491171-e2a3-484b-8e86-2ff09b607637")
+		(uuid "921995dc-1679-4d77-a7ed-7353deeee18d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.6053 171.45 0)
 			(effects
@@ -4145,6 +4185,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C9"
+		(shape input)
+		(at 77.47 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97491171-e2a3-484b-8e86-2ff09b607637")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.9347 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4173,22 +4235,22 @@
 	)
 	(global_label "C2"
 		(shape input)
-		(at 77.47 181.61 0)
+		(at 52.07 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ad87ec26-2bf7-4c75-8925-faaa564294e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 181.61 0)
+			(at 46.6053 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4217,22 +4279,22 @@
 	)
 	(global_label "C0"
 		(shape input)
-		(at 77.47 186.69 0)
+		(at 52.07 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b338647d-304f-48a5-a3fa-927bb9d11ba7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 186.69 0)
+			(at 46.6053 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4261,22 +4323,22 @@
 	)
 	(global_label "C10"
 		(shape input)
-		(at 52.07 173.99 180)
+		(at 77.47 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b9ca630c-a7a2-4177-b236-73b9e44f1a3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.3958 173.99 0)
+			(at 84.1442 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4393,22 +4455,22 @@
 	)
 	(global_label "R4"
 		(shape input)
-		(at 52.07 186.69 180)
+		(at 77.47 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "edf94fee-c395-4f6c-87fa-39ad00d2352e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.6053 186.69 0)
+			(at 82.9347 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4437,29 +4499,7 @@
 	)
 	(global_label "C3"
 		(shape input)
-		(at 77.47 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f2677c8d-b6ba-479c-b77f-91d79f2e46f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C11"
-		(shape input)
-		(at 52.07 176.53 180)
+		(at 52.07 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4467,14 +4507,36 @@
 			)
 			(justify right)
 		)
-		(uuid "f85c83b0-cc41-4474-96fe-c2edf8113c2b")
+		(uuid "f2677c8d-b6ba-479c-b77f-91d79f2e46f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.3958 176.53 0)
+			(at 46.6053 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C11"
+		(shape input)
+		(at 77.47 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f85c83b0-cc41-4474-96fe-c2edf8113c2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.1442 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4561,7 +4623,7 @@
 			(uuid "bf27c2e1-53af-454c-a13f-67e1430cea2a")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW21")
 					(unit 1)
@@ -4629,7 +4691,7 @@
 			(uuid "d1c875e6-083f-47ce-b907-da201b0f3986")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW32")
 					(unit 1)
@@ -4697,7 +4759,7 @@
 			(uuid "c594b449-19f4-4a74-94c3-c98bea635e48")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW50")
 					(unit 1)
@@ -4765,7 +4827,7 @@
 			(uuid "55ecbe58-96f0-4fb9-a961-fd634dad64fa")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW31")
 					(unit 1)
@@ -4853,7 +4915,7 @@
 			(uuid "cd3209ce-1ef8-4c9e-a901-bbec0459a6b7")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D6")
 					(unit 1)
@@ -4919,7 +4981,7 @@
 			(uuid "94dc41da-fb4d-4e20-a88b-4517eb71ff75")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "#PWR03")
 					(unit 1)
@@ -5007,7 +5069,7 @@
 			(uuid "f2313ce8-1ba0-49d6-8068-ecf6506ef4da")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D23")
 					(unit 1)
@@ -5095,7 +5157,7 @@
 			(uuid "e07b85ab-da4b-4932-ae9e-244f2ab28e72")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D43")
 					(unit 1)
@@ -5163,7 +5225,7 @@
 			(uuid "af4b6942-c7b4-49d2-91d4-0ba059b6f436")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "RST1")
 					(unit 1)
@@ -5251,7 +5313,7 @@
 			(uuid "d9385274-83d2-4eea-95ac-736235e8b693")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D28")
 					(unit 1)
@@ -5319,7 +5381,7 @@
 			(uuid "09c19c79-667b-423d-8c38-4cf97a347772")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW24")
 					(unit 1)
@@ -5407,7 +5469,7 @@
 			(uuid "1c924055-4b4e-4a87-b8f7-b9808b33b24f")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D40")
 					(unit 1)
@@ -5417,7 +5479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 165.1 0)
+		(at 44.45 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5426,7 +5488,7 @@
 		(fields_autoplaced yes)
 		(uuid "18654acf-a0d1-4e18-bf9e-7f83cc6bb09c")
 		(property "Reference" "#PWR01"
-			(at 41.91 171.45 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 170.18 0)
+			(at 44.45 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 165.1 0)
+			(at 44.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 165.1 0)
+			(at 44.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 165.1 0)
+			(at 44.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +5535,7 @@
 			(uuid "fd9cddf3-a51a-484e-9f5d-0ea3841a08b4")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "#PWR01")
 					(unit 1)
@@ -5541,7 +5603,7 @@
 			(uuid "e2a38bd7-64d5-4fb7-92b0-666cf24ca98c")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW51")
 					(unit 1)
@@ -5629,7 +5691,7 @@
 			(uuid "c05376eb-3981-4527-bb4a-f981fd4c061c")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D62")
 					(unit 1)
@@ -5717,7 +5779,7 @@
 			(uuid "e5b55bce-e611-4529-b766-57d6632dce6e")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D50")
 					(unit 1)
@@ -5785,7 +5847,7 @@
 			(uuid "78f28c16-9f39-4c88-af53-a6a62cb7af43")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW37")
 					(unit 1)
@@ -5873,7 +5935,7 @@
 			(uuid "f91d12b8-eb18-4dce-a850-4ac81c1a48f2")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D36")
 					(unit 1)
@@ -5961,7 +6023,7 @@
 			(uuid "78c08ae9-cedd-4223-9115-369822cde380")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D9")
 					(unit 1)
@@ -5971,7 +6033,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 156.21 0)
+		(at 133.35 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5980,7 +6042,7 @@
 		(fields_autoplaced yes)
 		(uuid "26c14c8d-ae23-4048-ba46-6b629695ed4c")
 		(property "Reference" "#PWR05"
-			(at 135.89 162.56 0)
+			(at 133.35 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6051,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 161.29 0)
+			(at 133.35 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 156.21 0)
+			(at 133.35 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 156.21 0)
+			(at 133.35 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6077,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 156.21 0)
+			(at 133.35 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6089,7 @@
 			(uuid "dfea0ced-0c58-4d26-916d-a8647e5da153")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "#PWR05")
 					(unit 1)
@@ -6095,7 +6157,7 @@
 			(uuid "b0acc9b3-0970-48c6-8194-5b846e4f14b3")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW20")
 					(unit 1)
@@ -6183,7 +6245,7 @@
 			(uuid "e5e7460d-8801-48f4-9b66-07d5f66b1d4d")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D54")
 					(unit 1)
@@ -6271,7 +6333,7 @@
 			(uuid "897b8bff-2a20-468d-b8df-9db88c933e47")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D48")
 					(unit 1)
@@ -6359,7 +6421,7 @@
 			(uuid "8a0782d1-00da-4d29-96e3-ce7fdea5e24b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D45")
 					(unit 1)
@@ -6447,7 +6509,7 @@
 			(uuid "59d7a2b3-cb7a-445d-9bee-e9a1c1aec67c")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D44")
 					(unit 1)
@@ -6514,7 +6576,7 @@
 			(uuid "89e1d7a5-6850-4fb9-9e50-9f695e816212")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW49")
 					(unit 1)
@@ -6582,7 +6644,7 @@
 			(uuid "5acb2309-ecb4-450b-b7b3-10102e13a68b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW12")
 					(unit 1)
@@ -6650,7 +6712,7 @@
 			(uuid "5eb12860-229e-444a-9de2-8f5d85c834b2")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW7")
 					(unit 1)
@@ -6738,7 +6800,7 @@
 			(uuid "8c970da0-aa2b-438f-85c0-114010e018c6")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D53")
 					(unit 1)
@@ -6826,7 +6888,7 @@
 			(uuid "b5167379-fb63-4db7-ac44-ecf2a8495c02")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D3")
 					(unit 1)
@@ -6914,7 +6976,7 @@
 			(uuid "aa8f50bb-6ecf-44a3-89e7-2c73d656eaeb")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D51")
 					(unit 1)
@@ -6982,7 +7044,7 @@
 			(uuid "99e14e5a-3d42-4b8a-9900-38690638fcaf")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW4")
 					(unit 1)
@@ -7070,7 +7132,7 @@
 			(uuid "1bad72f5-8622-4440-98d1-e6320c5b678d")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D8")
 					(unit 1)
@@ -7150,7 +7212,7 @@
 			(uuid "f7a7466a-093f-45ac-9969-106f6fa45fc5")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "PWR1")
 					(unit 1)
@@ -7238,7 +7300,7 @@
 			(uuid "88636f84-1df0-4de4-9fb0-04244f002c66")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D15")
 					(unit 1)
@@ -7304,7 +7366,7 @@
 			(uuid "aacbd3ef-e87b-43a1-82bf-62c2f02bef12")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "#PWR06")
 					(unit 1)
@@ -7392,7 +7454,7 @@
 			(uuid "f920f9dc-3085-4489-b771-38502575b002")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D7")
 					(unit 1)
@@ -7480,7 +7542,7 @@
 			(uuid "fcac9a68-8cb7-481e-b07d-a6495e185011")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D21")
 					(unit 1)
@@ -7568,7 +7630,7 @@
 			(uuid "e2db1ab2-f465-4b8f-96c5-bc10fdbbd481")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D37")
 					(unit 1)
@@ -7656,7 +7718,7 @@
 			(uuid "8baa65cb-77c7-40a3-a7f4-029633a00d47")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D12")
 					(unit 1)
@@ -7744,7 +7806,7 @@
 			(uuid "477fe06c-5d05-40b3-b260-b9feb28b2b67")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D61")
 					(unit 1)
@@ -7812,7 +7874,7 @@
 			(uuid "2d3c68fb-0cc6-46c4-9882-87f0b5dfd956")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW6")
 					(unit 1)
@@ -7880,7 +7942,7 @@
 			(uuid "ad69385b-96a2-4aff-b69c-43cf1cb4e654")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW1")
 					(unit 1)
@@ -7968,7 +8030,7 @@
 			(uuid "7e191b4e-c549-4d34-89f7-d1170bb4bcfd")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D30")
 					(unit 1)
@@ -8056,7 +8118,7 @@
 			(uuid "9b03017a-d155-4af5-8161-c6a34e357061")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D17")
 					(unit 1)
@@ -8144,7 +8206,7 @@
 			(uuid "9deee07a-7fc0-43d5-ac15-64becd5bdfb3")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D18")
 					(unit 1)
@@ -8232,7 +8294,7 @@
 			(uuid "30d3eb41-65bf-44f0-9f98-05169e5f3896")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D20")
 					(unit 1)
@@ -8300,7 +8362,7 @@
 			(uuid "66fd8dae-fc1e-4a8c-8186-0daf32ec7040")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW56")
 					(unit 1)
@@ -8368,7 +8430,7 @@
 			(uuid "76912886-1f64-4265-a96e-767f72fad4ee")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW23")
 					(unit 1)
@@ -8456,7 +8518,7 @@
 			(uuid "a9c03b2a-0cab-455e-b588-5cc09dbe6c49")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D47")
 					(unit 1)
@@ -8544,7 +8606,7 @@
 			(uuid "37f7eeb6-e1ab-4290-b358-2005f5468831")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D34")
 					(unit 1)
@@ -8632,7 +8694,7 @@
 			(uuid "7fd3a96d-ada4-46e4-b63a-e1a04ef0fe95")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D33")
 					(unit 1)
@@ -8700,7 +8762,7 @@
 			(uuid "0628dda9-5ca9-4a52-b01d-249cb7e735a0")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW9")
 					(unit 1)
@@ -8768,7 +8830,7 @@
 			(uuid "c05bb20c-9036-44ff-9969-c3684480d6cb")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW22")
 					(unit 1)
@@ -8832,7 +8894,7 @@
 			)
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "S2")
 					(unit 1)
@@ -8842,7 +8904,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 135.89 151.13 0)
+		(at 135.89 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8851,15 +8913,6 @@
 		(fields_autoplaced yes)
 		(uuid "68bcdd4b-c027-4e94-a0ea-7289acc1bc80")
 		(property "Reference" "BT1"
-			(at 139.7 149.2884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
 			(at 139.7 151.8284 0)
 			(effects
 				(font
@@ -8868,8 +8921,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "Battery"
+			(at 139.7 154.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "GHN:JST_PH"
-			(at 135.89 149.606 90)
+			(at 135.89 152.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +8940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 149.606 90)
+			(at 135.89 152.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8887,7 +8949,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 135.89 151.13 0)
+			(at 135.89 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8964,7 @@
 			(uuid "51c621af-3ed4-4da0-b407-187b350d6b52")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "BT1")
 					(unit 1)
@@ -8990,7 +9052,7 @@
 			(uuid "08118db4-4325-4e49-af31-980fb4231a8a")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D58")
 					(unit 1)
@@ -9058,7 +9120,7 @@
 			(uuid "0d47aa6e-abeb-4f22-8669-98b43f282e2b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW47")
 					(unit 1)
@@ -9126,7 +9188,7 @@
 			(uuid "cff2c5f5-8c40-4c43-b641-508b34068f48")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW15")
 					(unit 1)
@@ -9194,7 +9256,7 @@
 			(uuid "1507a070-21a9-4113-9aac-878c2470665b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW48")
 					(unit 1)
@@ -9282,7 +9344,7 @@
 			(uuid "70662094-e5cd-441d-9de5-f6fe2b2b102b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D13")
 					(unit 1)
@@ -9350,7 +9412,7 @@
 			(uuid "95d66dcc-5ef4-40a5-92fa-8d19328effc4")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW27")
 					(unit 1)
@@ -9418,7 +9480,7 @@
 			(uuid "7ced7bb7-1340-4534-9e0f-55f0b0edcd2e")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW53")
 					(unit 1)
@@ -9486,7 +9548,7 @@
 			(uuid "a5ac9fcb-a6ae-4b5d-91bc-04170b07316d")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW39")
 					(unit 1)
@@ -9574,7 +9636,7 @@
 			(uuid "201a4723-1be2-4305-95ff-3853d32b96b9")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D22")
 					(unit 1)
@@ -9662,7 +9724,7 @@
 			(uuid "ec203e73-0b89-4936-a16c-b74c1a3b0807")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D46")
 					(unit 1)
@@ -9750,7 +9812,7 @@
 			(uuid "4640c252-933f-4b88-8587-22b8cbb6bf01")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D10")
 					(unit 1)
@@ -9818,7 +9880,7 @@
 			(uuid "e6ea7a30-d7a5-4f6f-8054-c72ec33efd28")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW29")
 					(unit 1)
@@ -9906,7 +9968,7 @@
 			(uuid "4491b4ef-d841-4b9d-aa50-31d7a784d892")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D19")
 					(unit 1)
@@ -9974,7 +10036,7 @@
 			(uuid "4d108d74-04b9-461d-9f6f-2bc15d712c9d")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW2")
 					(unit 1)
@@ -10042,7 +10104,7 @@
 			(uuid "e8d63512-e844-4878-9f93-bd7371cf29ed")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW8")
 					(unit 1)
@@ -10130,7 +10192,7 @@
 			(uuid "9b6295b5-914b-4510-a915-77301c997daf")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D55")
 					(unit 1)
@@ -10198,7 +10260,7 @@
 			(uuid "f4efc457-cb1e-47dc-9fe2-49fa8d1c5408")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW41")
 					(unit 1)
@@ -10266,7 +10328,7 @@
 			(uuid "009c9ca6-3a05-486a-97a6-f1850ca6069d")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW38")
 					(unit 1)
@@ -10354,7 +10416,7 @@
 			(uuid "7732a938-5a54-4c61-b485-3f5ced9572da")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D2")
 					(unit 1)
@@ -10422,7 +10484,7 @@
 			(uuid "41179b5c-2abf-4931-92d3-16024c2cb169")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW61")
 					(unit 1)
@@ -10490,7 +10552,7 @@
 			(uuid "adb53200-e9c4-45cb-b751-6714ab288354")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW11")
 					(unit 1)
@@ -10578,7 +10640,7 @@
 			(uuid "d619d543-463e-43e8-9005-4bd4e6372a39")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D25")
 					(unit 1)
@@ -10666,7 +10728,7 @@
 			(uuid "39e70609-e750-4482-aff3-8565fcb5cd05")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D31")
 					(unit 1)
@@ -10754,7 +10816,7 @@
 			(uuid "f52917f3-33c6-47af-ad69-70a87d263bbd")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D14")
 					(unit 1)
@@ -10842,9 +10904,79 @@
 			(uuid "67eaa572-9092-4ed7-af93-8c2030d42603")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 130.81 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86148dd6-92fa-4573-b003-4315ab670b0e")
+		(property "Reference" "BT2"
+			(at 134.62 151.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 134.62 154.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GHN:custombatteryconnector_small"
+			(at 130.81 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68653a9c-c70c-4d5c-b70d-9ece72d6fb32")
+		)
+		(pin "2"
+			(uuid "4492d8d9-409e-4a84-89ff-cbdc3ba60f56")
+		)
+		(instances
+			(project "GHN626"
+				(path "/734b8082-562a-42a1-ae8f-205c69627558"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -10906,7 +11038,7 @@
 			)
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "S1")
 					(unit 1)
@@ -10974,7 +11106,7 @@
 			(uuid "f4cd4c85-7e82-45c4-8654-29cc06f7b262")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW59")
 					(unit 1)
@@ -11062,7 +11194,7 @@
 			(uuid "d13f3c4c-1fea-4768-9496-42b90888cefc")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D4")
 					(unit 1)
@@ -11130,7 +11262,7 @@
 			(uuid "2203ddb9-1470-43d3-bf39-4653ad45b2c1")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW33")
 					(unit 1)
@@ -11198,7 +11330,7 @@
 			(uuid "fd9a2054-1792-4895-b2f0-9b25b7576037")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW35")
 					(unit 1)
@@ -11266,7 +11398,7 @@
 			(uuid "0c50a6eb-af1d-4d30-8149-4fc96c9ac489")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW58")
 					(unit 1)
@@ -11334,7 +11466,7 @@
 			(uuid "674975cb-fe3d-44e5-92d3-c26eb999c9a1")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW16")
 					(unit 1)
@@ -11402,7 +11534,7 @@
 			(uuid "71273a22-cc1d-4051-a010-74a7ba153a44")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW40")
 					(unit 1)
@@ -11470,7 +11602,7 @@
 			(uuid "3077bde5-8189-4369-ad68-c1f9744c5971")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW3")
 					(unit 1)
@@ -11538,7 +11670,7 @@
 			(uuid "0540aaf5-a3db-49ce-ac6e-d283e60fda1b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW36")
 					(unit 1)
@@ -11606,7 +11738,7 @@
 			(uuid "36c7a8dc-3c79-48e4-ae20-d9b7bf20854a")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW14")
 					(unit 1)
@@ -11694,7 +11826,7 @@
 			(uuid "771c3c59-94f5-4e4b-813f-c731a42f0590")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D57")
 					(unit 1)
@@ -11762,7 +11894,7 @@
 			(uuid "184e58e1-02b7-4891-af7e-98bdf25aaf97")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW19")
 					(unit 1)
@@ -11850,7 +11982,7 @@
 			(uuid "7a9a1f9a-8f9a-4446-8fc4-88fc8de123a0")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D32")
 					(unit 1)
@@ -11860,16 +11992,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 161.29 0)
+		(at 85.09 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a72c44df-59ab-49d0-853f-e84027049c74")
 		(property "Reference" "#PWR02"
-			(at 87.63 167.64 0)
+			(at 85.09 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,7 +12009,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 166.37 0)
+			(at 85.09 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +12017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 161.29 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11895,7 +12026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 161.29 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11904,7 +12035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 161.29 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,7 +12047,7 @@
 			(uuid "42d63271-7761-4ffd-975e-57019910b174")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "#PWR02")
 					(unit 1)
@@ -12004,7 +12135,7 @@
 			(uuid "38c4d8b3-3949-4afa-a953-58215afbb59c")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D27")
 					(unit 1)
@@ -12092,7 +12223,7 @@
 			(uuid "fa640f94-acf7-4a74-a5e2-170394b669d0")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D24")
 					(unit 1)
@@ -12160,7 +12291,7 @@
 			(uuid "906c755f-88ff-44c6-a184-280e6b8c69bf")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW44")
 					(unit 1)
@@ -12228,7 +12359,7 @@
 			(uuid "4f71cfb5-d7ac-4d60-bee4-ab5a1e0f54ae")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW60")
 					(unit 1)
@@ -12296,7 +12427,7 @@
 			(uuid "ecbc4167-fe89-45e7-905c-564ca948a180")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW34")
 					(unit 1)
@@ -12364,7 +12495,7 @@
 			(uuid "4d1898aa-7119-467e-be8e-ceb784d3343c")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW46")
 					(unit 1)
@@ -12432,7 +12563,7 @@
 			(uuid "fc3f4a06-9b9a-433a-9263-0024a9d0d537")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW54")
 					(unit 1)
@@ -12500,7 +12631,7 @@
 			(uuid "8200fae7-f6d3-446b-9d8c-10a6bcaa0a23")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW26")
 					(unit 1)
@@ -12568,7 +12699,7 @@
 			(uuid "84271110-752b-4b8a-9e15-aac97019fcc1")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW43")
 					(unit 1)
@@ -12656,7 +12787,7 @@
 			(uuid "3c961ca0-f60b-4fdc-96af-50e7e58525d2")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D52")
 					(unit 1)
@@ -12724,7 +12855,7 @@
 			(uuid "04833c9a-f118-4626-ab02-c8c1a3c4a0f8")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW55")
 					(unit 1)
@@ -12790,7 +12921,7 @@
 			(uuid "19e8df33-f1d1-42c8-a010-881dd1eb0b6e")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "#PWR04")
 					(unit 1)
@@ -12858,7 +12989,7 @@
 			(uuid "4b23bcb2-bb06-4587-b6a6-a306388fe421")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW10")
 					(unit 1)
@@ -12946,7 +13077,7 @@
 			(uuid "ecb1f4aa-f771-4d6b-b285-3fbc7615ba89")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D42")
 					(unit 1)
@@ -13034,7 +13165,7 @@
 			(uuid "185920d7-4e3a-49f0-ba7a-6a8b12b792fd")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D11")
 					(unit 1)
@@ -13122,7 +13253,7 @@
 			(uuid "853da1ef-78c3-46a5-a91e-4d1240b41cf4")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D59")
 					(unit 1)
@@ -13190,7 +13321,7 @@
 			(uuid "25cfd286-a226-4fc5-b0d0-1e645297892a")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW28")
 					(unit 1)
@@ -13278,7 +13409,7 @@
 			(uuid "7e764bbb-fdf0-4cf7-84f9-8d6b598c52b2")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D29")
 					(unit 1)
@@ -13366,7 +13497,7 @@
 			(uuid "aff6183c-f766-41a7-ad43-4bdff171cae1")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D41")
 					(unit 1)
@@ -13500,7 +13631,7 @@
 			(uuid "0a6fa1a4-927b-42ca-a53d-fbe749d60209")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "U1")
 					(unit 1)
@@ -13568,7 +13699,7 @@
 			(uuid "44302865-b8fe-456b-8506-2ca5dd4a6a93")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW5")
 					(unit 1)
@@ -13636,7 +13767,7 @@
 			(uuid "2a9263d2-9e0a-4a2f-b282-fe8138b4a00c")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW52")
 					(unit 1)
@@ -13724,7 +13855,7 @@
 			(uuid "26ed8f5f-c3ac-4cc8-a918-ddf4390dcdfb")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D39")
 					(unit 1)
@@ -13792,7 +13923,7 @@
 			(uuid "08386aaf-22bc-4794-bd31-d514e4783b8e")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW62")
 					(unit 1)
@@ -13880,7 +14011,7 @@
 			(uuid "335bd632-62c3-4397-a093-e52caa313f05")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D26")
 					(unit 1)
@@ -13968,7 +14099,7 @@
 			(uuid "e0bc86fa-1e68-45f0-b059-9a3e92ace06d")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D1")
 					(unit 1)
@@ -14056,7 +14187,7 @@
 			(uuid "3c42719b-bce8-426a-8633-ca20a194644b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D16")
 					(unit 1)
@@ -14124,7 +14255,7 @@
 			(uuid "57e83d80-7fb5-44c4-8ddd-0ead57ca8725")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW25")
 					(unit 1)
@@ -14212,7 +14343,7 @@
 			(uuid "29183609-84ca-4b30-86d8-457e2446020f")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D56")
 					(unit 1)
@@ -14276,7 +14407,7 @@
 			)
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "S3")
 					(unit 1)
@@ -14344,7 +14475,7 @@
 			(uuid "5e817bf2-23bf-48bf-8d6a-bb51feba6c26")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW17")
 					(unit 1)
@@ -14412,7 +14543,7 @@
 			(uuid "6cebb4da-5096-4394-9557-537d86dc6d0b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW13")
 					(unit 1)
@@ -14480,7 +14611,7 @@
 			(uuid "fc505733-8606-4fe4-b05a-88fc12006d4b")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW18")
 					(unit 1)
@@ -14568,7 +14699,7 @@
 			(uuid "8e0a1ac5-7d9a-4389-b77c-aaa20e61708c")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D38")
 					(unit 1)
@@ -14636,7 +14767,7 @@
 			(uuid "86d496ad-fea2-481a-a5f2-e611d88ca3c7")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW57")
 					(unit 1)
@@ -14724,7 +14855,7 @@
 			(uuid "aba7ff3d-5a75-4e8d-9116-c96c0abb4d8e")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D60")
 					(unit 1)
@@ -14792,7 +14923,7 @@
 			(uuid "cbe8cdec-c88b-49d2-b854-78e2a8379722")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW45")
 					(unit 1)
@@ -14860,7 +14991,7 @@
 			(uuid "f2250937-5195-4875-ae80-7e8713ee5728")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW42")
 					(unit 1)
@@ -14948,7 +15079,7 @@
 			(uuid "a41ef1f9-fc9a-4c4e-833f-ce0957dcdbb9")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D35")
 					(unit 1)
@@ -15016,7 +15147,7 @@
 			(uuid "393b6193-9b13-446f-a7cc-756a9fb609ae")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "SW30")
 					(unit 1)
@@ -15104,7 +15235,7 @@
 			(uuid "91d5eaf8-133a-4e24-9ad7-4d8eb7f63727")
 		)
 		(instances
-			(project "656"
+			(project "GHN626"
 				(path "/734b8082-562a-42a1-ae8f-205c69627558"
 					(reference "D5")
 					(unit 1)
