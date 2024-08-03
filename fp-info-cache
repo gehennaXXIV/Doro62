@@ -1,4 +1,4 @@
-24972633688640403
+25009503393672227
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56735,6 +56735,13 @@ Jumper
 2
 2
 GHN
+KS33+Choc V1-V2
+
+
+0
+4
+2
+GHN
 MJ-4PP-9
 
 
@@ -68144,6 +68151,13 @@ Hotswap footprint for Kailh Choc style switches
 0
 6
 2
+PCM_marbastlib-choc
+SW_choc_v1_HS_CPG135001S30_2.25u
+Hotswap footprint for Kailh Choc style switches
+
+0
+6
+2
 PCM_marbastlib-hitek
 SW_HiTek_1.5u
 Footprint for Hi-Tek Series 725 ("Space Invader") Switches
@@ -68851,6 +68865,27 @@ usb usb-c 2.0 pd
 0
 20
 17
+PCM_marbastlib-various
+XUNPU_FPC-05F-16PH20_1x16-1MP_P0.5mm_Horizontal
+XUNPU FPC connector, 16 bottom-side contacts, 0.5mm pitch, SMT, https://datasheet.lcsc.com/lcsc/2109221030_XUNPU-FPC-05F-16PH20_C2856801.pdf
+XUNPU  fpc FPC-05F-16PH20
+0
+18
+17
+PCM_marbastlib-various
+XUNPU_FPC-05F-20PH20_1x20-1MP_P0.5mm_Horizontal
+XUNPU FPC connector, 20 bottom-side contacts, 0.5mm pitch, SMT, https://datasheet.lcsc.com/lcsc/2109221030_XUNPU-FPC-05F-16PH20_C2856801.pdf
+XUNPU  fpc FPC-05F-20PH20
+0
+22
+21
+PCM_marbastlib-various
+XUNPU_FPC-05F-24PH20_1x24-1MP_P0.5mm_Horizontal
+XUNPU FPC connector, 24 bottom-side contacts, 0.5mm pitch, SMT, https://datasheet.lcsc.com/lcsc/2109221030_XUNPU-FPC-05F-16PH20_C2856801.pdf
+XUNPU  fpc FPC-05F-24PH20
+0
+26
+25
 PCM_marbastlib-various
 mousebites_1mm
 
@@ -70035,6 +70070,41 @@ Footprint for Arduino Pro Micro and compatible boards, USB pointing away from PC
 24
 24
 PCM_marbastlib-xp-promicroish
+SuperMini_nRF52840_AH_Reversible
+Footprint for SuperMini nRF52840 (nRF52850 pro-micro compatible controller), Reversible
+
+0
+29
+29
+PCM_marbastlib-xp-promicroish
+SuperMini_nRF52840_AH_USBdn
+Footprint for SuperMini nRF52840 (nRF52850 pro-micro compatible controller), USB facing PCB
+
+0
+29
+29
+PCM_marbastlib-xp-promicroish
+SuperMini_nRF52840_AH_USBup
+Footprint for SuperMini nRF52840 (nRF52850 pro-micro compatible controller), USB pointing away from PCB
+
+0
+29
+29
+PCM_marbastlib-xp-promicroish
+SuperMini_nRF52840_H_USBdn
+Footprint for SuperMini nRF52840 (nRF52850 pro-micro compatible controller), pro-micro compatible pads only, USB facing PCB
+
+0
+24
+24
+PCM_marbastlib-xp-promicroish
+SuperMini_nRF52840_H_USBup
+Footprint for SuperMini nRF52840 (nRF52850 pro-micro compatible controller), pro-micro compatible pads only, USB pointing away from PCB
+
+0
+24
+24
+PCM_marbastlib-xp-promicroish
 Xiao_nRF52840_ACH
 Footprint for Elite-C controllers, through hole and castellated pads
 
@@ -70140,6 +70210,27 @@ TRRS jack 3.5mm headphone connector
 8
 4
 PCM_marbastlib-xp-various
+Diodes_UDFN2020-6_Type-F
+U-DFN2020-6 (Type F) (https://www.diodes.com/assets/Package-Files/U-DFN2020-6-Type-F.pdf) 
+U-DFN2020-6 (Type F)
+0
+8
+8
+PCM_marbastlib-xp-various
+HC-PBB40C-10DP-0.4V-02
+10 pin Mezzanine style connector, multiple mating heights available
+
+0
+14
+11
+PCM_marbastlib-xp-various
+HC-PBB40C-10DS-0.4V-2.0-02
+10 pin Mezzanine style connector, 2mm mating height
+mezzanine
+0
+10
+10
+PCM_marbastlib-xp-various
 LED_WS2812_2020_rearmount
 2020 SMD adressable RGB LED with integrated controller
 LED RGB NeoPixel
@@ -70154,6 +70245,27 @@ LED RGB NeoPixel
 4
 4
 PCM_marbastlib-xp-various
+L_Bourns_SRP6050CA_6.6x6.4mm
+Shielded Power Inductors (https://www.bourns.com/docs/product-datasheets/srp7028a.pdf)
+Shielded Inductors Bourns SMD SRP7028A
+0
+2
+2
+PCM_marbastlib-xp-various
+L_Bourns_SRP6060FA_6.6x6.4mm
+Shielded Power Inductors (https://www.bourns.com/docs/product-datasheets/srp7028a.pdf)
+Shielded Inductors Bourns SMD SRP7028A
+0
+2
+2
+PCM_marbastlib-xp-various
+L_Cenker_CKST353220
+Inductor, Cenker, CKCS3012, 3.0x3.0x1.3mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+PCM_marbastlib-xp-various
 MAX77751
 3A 1S LiXx battery charging IC with USB (DP/DP + CC) current negotiation and power path
 LiIon LiPo battery charger management usb power path switch-mode step-down buck
@@ -70161,12 +70273,33 @@ LiIon LiPo battery charger management usb power path switch-mode step-down buck
 24
 24
 PCM_marbastlib-xp-various
+PDFN3.3x3.3-8L_2
+
+
+0
+10
+6
+PCM_marbastlib-xp-various
+PDFN3.3x3.3_EP
+
+
+0
+9
+9
+PCM_marbastlib-xp-various
 PNT_psp1000
 Footprint for a PSP-1000 joystick
 psp joystick analog
 0
 6
 5
+PCM_marbastlib-xp-various
+QFN-13_3x4mm_P0.5mm
+21A, High-Efficiency, Fully Integrated, Synchronous, Boost Converter with Programmable Input Current Limit
+
+0
+13
+13
 PCM_marbastlib-xp-various
 QFN-22_MP2722_2.5x3.5mm_P0.4mm
 QFN, 22pin, Monolithic Power MP2722 https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2722GRH/document_id/10035/
@@ -70182,12 +70315,19 @@ stm32 arm wireless bluetooth low energy ble zigbee
 86
 86
 PCM_marbastlib-xp-various
-XUNPU_FPC-05F-16PH20_1x16-1MP_P0.5mm_Horizontal
-XUNPU FPC connector, 16 bottom-side contacts, 0.5mm pitch, SMT, https://datasheet.lcsc.com/lcsc/2109221030_XUNPU-FPC-05F-16PH20_C2856801.pdf
-XUNPU  fpc FPC-05F-16PH20
+USB_C_Receptacle_HRO_TYPE-C-31-M-23
+USB Type-C receptacle for USB 2.0 and PD, https://en.krhro.com/Product-Details/719.html
+usb usb-c 2.0 pd
 0
-18
+20
 17
+PCM_marbastlib-xp-various
+XUNPU_FPC-0.5AL-20PB_1x20-1MP_P0.5mm_Vertical
+XUNPU FPC connector, 20 bottom-side contacts, 0.5mm pitch, SMT, https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206301715_XUNPU-FPC-0-5AD-20PB_C3446061.pdf
+XUNPU  fpc FPC-0.5AL vertical
+0
+22
+21
 PCM_marbastlib-xp-various
 nRF52840_holyiot_18010_HS
 Module containing a nRF52840 and most passives and antenna
