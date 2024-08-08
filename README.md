@@ -1,13 +1,16 @@
 # Doro62
+***
 ![Image](/pics/build.jpg)
 
 
 ZMK config - https://github.com/gehennaXXIV/zmk-config-Doro62
-QMK config - none yet
-
 
 It has a supporting json file for https://nickcoutsos.github.io/keymap-editor/ 
 
+
+QMK config - none yet
+
+***
 ## PARTS
 | **COMPONENTS**             |  Qty  |  Remarks |
 | :--------------------- 		 | :---: | :------  |
