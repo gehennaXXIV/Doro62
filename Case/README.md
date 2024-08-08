@@ -1,0 +1,1 @@
+4th and 5th layer's **thickness** are interchangeable. I recommend getting Clear Acrylic for the first four layers (from bottom) amd get a 4.5mm Clear Matte / Frosted Acrylic Top to also help reduce fingerprints.
