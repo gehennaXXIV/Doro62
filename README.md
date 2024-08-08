@@ -40,3 +40,4 @@ QMK config - none yet
 * https://github.com/ebastler/marbastlib
 * https://github.com/joe-scotto/scottokeebs
 * https://github.com/GEIGEIGEIST/KLOR
+* https://github.com/50an6xy06r6n/keyboard_reversible.pretty
