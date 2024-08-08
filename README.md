@@ -3,9 +3,9 @@ ZMK config - https://github.com/gehennaXXIV/zmk-config-Doro62
 ## PARTS
 | **COMPONENTS**             |  Qty  |  Remarks |
 | :--------------------- 		 | :---: | :------  |
-| Diodes 1N4148W (SMD)	 		 |  56   | SOD-123  |
-| MX Switch Sockets				   |  56   |          |
-| 2U Plate-Mount Stabilizers |  04   |          |
+| Diodes 1N4148W (SMD)	 		 |  62   | SOD-123  |
+| MX Switch Sockets				   |  62   |          |
+| 2U PCB-Mount Stabilizers |  03   |          |
 | Power Switch					     |  02   | MSK12C02 |
 | Reset Switch 		 			     |  02   | MJTP1250 |
 | JST 2 PH Right Angle Jack	 |  01   |          |
