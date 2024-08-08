@@ -5,9 +5,9 @@ ZMK config - https://github.com/gehennaXXIV/zmk-config-Doro62
 | :--------------------- 		 | :---: | :------  |
 | Diodes 1N4148W (SMD)	 		 |  62   | SOD-123  |
 | MX Switch Sockets				   |  62   |          |
-| 2U PCB-Mount Stabilizers |  03   |          |
-| Power Switch					     |  02   | MSK12C02 |
-| Reset Switch 		 			     |  02   | MJTP1250 |
+| 2U PCB-Mount Stabilizers   |  03   |          |
+| Power Switch					     |  01   | MSK12C02 |
+| Reset Switch 		 			     |  01   | MJTP1250, this is soldered to the bottom of the PCB |
 | JST 2 PH Right Angle Jack	 |  01   |          |
 ***
 | **MCU**                        |  Qty  |  Remarks |
@@ -22,5 +22,5 @@ ZMK config - https://github.com/gehennaXXIV/zmk-config-Doro62
 | :--------------------- 		         | :---: | :------  |
 | [Acrylic Case](/Case/)             |  02   |          |
 | M2 8mm Wafer Head Screws		       |  24   | If you want to increase the distance from plate to top of case, might need to increase the length of the screws as well.
-| M2 9mm Round Standoff Spacer       |  12   | Can also use 9mm, or just buy both. they're cheap  |
+| M2 9mm Round Standoff Spacer       |  12   |          |
 | Rubber Feet					               |  08   | Currently the keyboard lays flat, I've yet to design a base layer for angled feet |
