@@ -1,4 +1,10 @@
+# Doro62
+![Image](/pics/build.jpg)
+
+
 ZMK config - https://github.com/gehennaXXIV/zmk-config-Doro62
+QMK config - none yet
+
 
 It has a supporting json file for https://nickcoutsos.github.io/keymap-editor/ 
 
@@ -26,3 +32,8 @@ It has a supporting json file for https://nickcoutsos.github.io/keymap-editor/
 | M2 8mm Wafer Head Screws		       |  24   | If you want to increase the distance from plate to top of case, might need to increase the length of the screws as well.
 | M2 9mm Round Standoff Spacer       |  12   |          |
 | Rubber Feet					               |  08   | Currently the keyboard lays flat, I've yet to design a base layer for angled feet |
+
+## FOOTPRINTS USED
+* https://github.com/ebastler/marbastlib
+* https://github.com/joe-scotto/scottokeebs
+* https://github.com/GEIGEIGEIST/KLOR
