@@ -36,8 +36,12 @@ QMK config - none yet
 | M2 9mm Round Standoff Spacer       |  12   |          |
 | Rubber Feet					               |  08   | Currently the keyboard lays flat, I've yet to design a base layer for angled feet |
 
+***
 ## FOOTPRINTS USED
 * https://github.com/ebastler/marbastlib
 * https://github.com/joe-scotto/scottokeebs
 * https://github.com/GEIGEIGEIST/KLOR
 * https://github.com/50an6xy06r6n/keyboard_reversible.pretty
+
+***
+Please note that while this keyboard is provided as open-source, I am not liable for any issues, malfunctions, or other problems that may arise from its use. The keyboard is provided "as-is," and I make no warranties or guarantees regarding its performance or functionality. Use at your own risk.
