@@ -3,11 +3,9 @@
 ![Image](/pics/build.jpg)
 
 
-[ZMK config](https://github.com/gehennaXXIV/zmk-config-Doro62)
+[ZMK config](https://github.com/gehennaXXIV/zmk-config-Doro62) - It has a supporting json file for https://nickcoutsos.github.io/keymap-editor/ 
 
-It has a supporting json file for https://nickcoutsos.github.io/keymap-editor/ 
-
-[QMK config](https://github.com/gehennaXXIV/qmk-config-GHN) - RP2040 Pro Micro w/ Vial support.
+[QMK config](https://github.com/gehennaXXIV/qmk-config-GHN) - RP2040 Pro Micro w/ Vial support
 
 
 ***
