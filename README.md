@@ -31,7 +31,7 @@
 | :--------------------- 		         | :---: | :------  |
 | [Acrylic Case](/Case/)             |  01   | maybe a 3DP one soon, but I'm very content with the acrylic case. LMK if you create one! |
 | M2 8mm Wafer Head Screws		       |  24   | If you want to increase the distance from plate to top of case, might need to increase the length of the screws as well.
-| M2 9mm Round Standoff Spacer       |  12   |          |
+| M2 12mm Round Standoff Spacer       |  12   |  Or 11 if it's portruding / giving plate a slight gap        |
 | Rubber Feet					               |  08   | Currently the keyboard lays flat, I've yet to design a base layer for angled feet |
 
 ***
@@ -43,3 +43,5 @@
 
 ***
 Please note that while this keyboard is provided as open-source, I am not liable for any issues, malfunctions, or other problems that may arise from its use. The keyboard is provided "as-is," and I make no warranties or guarantees regarding its performance or functionality. Use at your own risk.
+
+This is my first take at creating a keyboard from scratch, there's obviously alot of things that could've been done better. I will be redesigning this board in the future.
